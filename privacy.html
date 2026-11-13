@@ -14,8 +14,22 @@
   </header>
 
   <section>
-    <h2>No data collected</h2>
-    <p>AviWeather does not collect, store or share any personal data. There are no accounts, analytics, advertising or tracking.</p>
+    <h2>Summary</h2>
+    <p>AviWeather does not collect personal data. There are no accounts, advertising or tracking. From version 0.2.0 you can choose to share anonymous usage statistics. This is off unless you turn it on.</p>
+  </section>
+
+  <section>
+    <h2>Anonymous usage statistics (optional)</h2>
+    <p>From version 0.2.0, the app asks once whether you want to share anonymous usage statistics. Nothing is sent unless you choose <em>Share anonymous usage</em>, and you can turn it off at any time in Settings → Privacy. Earlier versions send no statistics.</p>
+    <p>If you opt in, the app sends:</p>
+    <ul>
+      <li>when the app is opened (sessions);</li>
+      <li>the airport code of each station dashboard you open (for example <code>EIDW</code>), and where you opened it from (home screen, search, favourites);</li>
+      <li>the type of error when a weather report fails to load (for example "rate limited" or "offline"), and whether a cached report was shown instead;</li>
+      <li>basic technical details: app version, system version, device type, language and region.</li>
+    </ul>
+    <p>It never sends your search input or anything else you type, your list of favourite or recent stations, or your location. Statistics are not linked to your identity and are not used for tracking or advertising.</p>
+    <p>Statistics are processed by <a href="https://telemetrydeck.com">TelemetryDeck</a>, a privacy-focused analytics service based in the EU. The app hashes its random install identifier before sending it, and TelemetryDeck hashes it again, so it cannot be traced back to you. TelemetryDeck's <a href="https://telemetrydeck.com/privacy/">privacy policy</a> applies to its service.</p>
   </section>
 
   <section>
